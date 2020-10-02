@@ -1,0 +1,143 @@
+ **************** Test Case 1 - 6 bits **************** 
+
+d expected: 3
+d actual: 3
+plaintext (expected): 11
+plaintext (actual): 11
+ciphertext (expected): 11
+ciphertext (actual): 11
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 2 - 6 bits **************** 
+
+d expected: 27
+d actual: 27
+plaintext (expected): 22
+plaintext (actual): 22
+ciphertext (expected): 33
+ciphertext (actual): 33
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 3 - 7 bits **************** 
+
+d expected: 53
+d actual: 53
+plaintext (expected): 33
+plaintext (actual): 33
+ciphertext (expected): 66
+ciphertext (actual): 66
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 4 - 8 bits **************** 
+
+d expected: 11
+d actual: 11
+plaintext (expected): 44
+plaintext (actual): 44
+ciphertext (expected): 99
+ciphertext (actual): 99
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 5 - 10 bits **************** 
+
+d expected: 343
+d actual: 343
+plaintext (expected): 55
+plaintext (actual): 55
+ciphertext (expected): 251
+ciphertext (actual): 251
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 6 - 11 bits **************** 
+
+d expected: 0
+d actual: 279
+plaintext (expected): 66
+plaintext (actual): 66
+ciphertext (expected): 263
+ciphertext (actual): 263
+cracking took 0.000 seconds
+brute force took 0.000 seconds
+
+ **************** Test Case 7 - 25 bits **************** 
+
+d expected: 17590093
+d actual: 17590093
+plaintext (expected): 77
+plaintext (actual): 77
+ciphertext (expected): 3851853
+ciphertext (actual): 3851853
+cracking took 0.004 seconds
+brute force took 9.700 seconds
+
+ **************** Test Case 8 - 30 bits **************** 
+
+d expected: 0
+d actual: 386063131
+plaintext (expected): 88
+plaintext (actual): 88
+ciphertext (expected): 159810131
+ciphertext (actual): 159810131
+cracking took 0.003 seconds
+could not crack the key using brute force
+
+ **************** Test Case 9 - 33 bits **************** 
+
+d expected: 0
+d actual: 2418060515
+plaintext (expected): 99
+plaintext (actual): 99
+ciphertext (expected): 6516777357
+ciphertext (actual): 6516777357
+cracking took 0.002 seconds
+could not crack the key using brute force
+
+ **************** Test Case 10 - 55 bits **************** 
+
+d expected: 9843735732800705
+d actual: 9843735732800705
+plaintext (expected): 1010
+plaintext (actual): 1010
+ciphertext (expected): 9190603619039538
+ciphertext (actual): 9190603619039538
+cracking took 0.347 seconds
+could not crack the key using brute force
+
+ **************** Test Case 11 - 68 bits **************** 
+
+d expected: 0
+d actual: 159013443284574894233
+plaintext (expected): 1111
+plaintext (actual): 1111
+ciphertext (expected): 108834061316998845007
+ciphertext (actual): 108834061316998845007
+cracking took 1.171 seconds
+could not crack the key using brute force
+
+ **************** Test Case 12 - 73 bits **************** 
+
+d expected: 0
+d actual: 2932466147677357733573
+plaintext (expected): 1212
+plaintext (actual): 1212
+ciphertext (expected): 10290404458130915244793
+ciphertext (actual): 10290404458130915244793
+cracking took 5.402 seconds
+could not crack the key using brute force
+
+ **************** Test Case 13 - 81 bits **************** 
+
+d expected: 0
+d actual: 698698720987731818161973
+plaintext (expected): 1313
+plaintext (actual): 1313
+ciphertext (expected): 1596396698114749970315290
+ciphertext (actual): 1596396698114749970315290
+cracking took 15.468 seconds
+could not crack the key using brute force
+
