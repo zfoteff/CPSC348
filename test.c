@@ -5,16 +5,13 @@
 #include <string.h>
 
 int main(int argc, char **argv) {
-  char cat[] = "cat ";
-  char *command;
-  size_t commandLength;
-
-  commandLength = strlen(cat) + strlen(argv[1]) + 1;
-  command = (char *) malloc(commandLength);
-  strncpy(command, cat, commandLength);
-  strncat(command, argv[1], (commandLength - strlen(cat)) );
-
-  printf("%s\n", command);
-  system(command);
-  return (0);
+  int child_status;
+  if (fork() == 0) {
+    printf("HC: hello from child\n"); exit(0);
+  } else {
+    printf("HP: hello from parent\n");
+    wait(&child_status);
+    printf("CT: child has terminated\n");
+  }
+  printf("Bye\n");
 }
